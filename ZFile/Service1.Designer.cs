@@ -32,7 +32,7 @@
             // Service1
             // 
             this.CanStop = false;
-            this.ServiceName = "Zfile";
+            this.ServiceName = "ZFile";
 
         }
 

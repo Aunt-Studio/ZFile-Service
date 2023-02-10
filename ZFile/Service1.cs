@@ -16,15 +16,28 @@ namespace ZFile
         {
             InitializeComponent();
         }
+        //下为将 Windows 服务作为控制台应用运行，详见https://learn.microsoft.com/zh-cn/dotnet/framework/windows-services/how-to-debug-windows-service-applications#how-to-run-a-windows-service-as-a-console-application
+
+        internal void TestStartupAndStop(string[] args)
+        {
+            this.OnStart(args);
+            Console.ReadLine();
+            this.OnStop();
+        }
 
         protected override void OnStart(string[] args)
         {
             string put = Cmd.RunCmd("help");    //执行命令
             Console.WriteLine(put);        //控制台输出返回结果
+
+
         }
+
+
 
         protected override void OnStop()
         {
+
         }
 
         class Cmd
