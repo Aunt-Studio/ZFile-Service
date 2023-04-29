@@ -1,5 +1,5 @@
 
-<div align="center"><image width="140em" src="src/Title.png" /></div>
+<div align="center"><image width="500em" src="src/Title.png" /></div>
 <h1 align="center">ZFile Service</h1>
 <h3 align="center">Windows下使ZFile以服务运行</h3>
 <h4 align="center">
