@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("ZFile")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("ZFile Service")]
+[assembly: AssemblyDescription("Windows下的ZFile服务，请勿直接停止进程")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ZFile")]
-[assembly: AssemblyCopyright("Copyright ©  2023")]
+[assembly: AssemblyCompany("Aunt Studio")]
+[assembly: AssemblyProduct("ZFile Service")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

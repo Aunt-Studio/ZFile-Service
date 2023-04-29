@@ -31,7 +31,7 @@
             // 
             // Service1
             // 
-            this.CanStop = false;
+            this.CanPauseAndContinue = true;
             this.ServiceName = "ZFile";
 
         }

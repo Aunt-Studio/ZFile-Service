@@ -16,8 +16,20 @@ namespace ZFile
         {
             if (Environment.UserInteractive)
             {
-                Service1 service1 = new Service1();
-                service1.TestStartupAndStop(args);
+                if (args.Length == 0)
+                {
+                    Service1 service1 = new Service1();
+                    service1.TestStartupAndStop(args);
+                }
+                string FirstArg = args[0];
+                if (FirstArg == "-i")
+                {
+                    ProjectInstaller.InstallService();
+                }
+                if (FirstArg == "-u")
+                {
+                    ProjectInstaller.UninstallService();
+                }
             }
             else
             {

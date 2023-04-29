@@ -33,15 +33,14 @@
             // 
             // serviceProcessInstaller1
             // 
-            this.serviceProcessInstaller1.Account = System.ServiceProcess.ServiceAccount.LocalService;
+            this.serviceProcessInstaller1.Account = System.ServiceProcess.ServiceAccount.LocalSystem;
             this.serviceProcessInstaller1.Password = null;
             this.serviceProcessInstaller1.Username = null;
-            this.serviceProcessInstaller1.AfterInstall += new System.Configuration.Install.InstallEventHandler(this.serviceProcessInstaller1_AfterInstall);
             // 
             // serviceInstaller1
             // 
-            this.serviceInstaller1.Description = "ZFile的守护服务";
-            this.serviceInstaller1.DisplayName = "ZFile Running Services";
+            this.serviceInstaller1.Description = "便于Windows下ZFile运行的服务，停止该服务将导致ZFile停止运行。";
+            this.serviceInstaller1.DisplayName = "ZFile Running Service";
             this.serviceInstaller1.ServiceName = "ZFile";
             this.serviceInstaller1.StartType = System.ServiceProcess.ServiceStartMode.Automatic;
             // 
