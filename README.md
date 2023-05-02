@@ -9,6 +9,12 @@
 
 ---
 
+## 下载
+
+[下载最新的Release](https://github.com/yangnuozhen/ZFile-Service/releases)
+
+请仔细阅读Release Notes。
+
 ## 配置
 
 打开ZFile-Service目录中的ZFile.cfg文件，你应该可以看到下列示例内容(若无请务必自行创建):
@@ -29,11 +35,11 @@ ZFilePort=[ZFile运行端口]
 
 **以上所有配置项均为必填项。**
 
-## 安装
+## 安装 | 运行
 
 ### 作为服务安装
 
-运行程序目录下的'install.bat'文件。
+运行程序目录下的`install.bat`文件。
 
 或
 
