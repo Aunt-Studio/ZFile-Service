@@ -54,6 +54,18 @@ ZFile.exe -i
 双击ZFile.exe即可直接运行ZFile。
 
 ---
+## TODO List
+
+- [x] 将ZFile作为Windows服务运行
+- [x] 双击ZFile.exe即可直接运行
+- [x] 若作为控制台程序运行，将ZFile回显实时输出到控制台
+- [ ] 自动输出日志到文件
+
+## License | 许可证
+
+本仓库所有源代码和发行包遵循MIT协议。有关更多信息，请查看[LICENSE](https://github.com/yangnuozhen/ZFile-Service/blob/master/LICENSE)
+
+---
 
 ## Special Thanks
 [![ZFile](src/zfile-horizontal.abd5aec9.jpg)](https://www.zfile.vip/)
