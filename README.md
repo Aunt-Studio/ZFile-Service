@@ -9,6 +9,12 @@
 
 ---
 
+## 项目介绍
+
+ZFile Service 是一个能让基于Java的在线文件管理器[ZFile](https://www.zfile.vip/)以Windows 服务方式运行的程序。
+
+其可以让ZFile一键运行，亦可以一键将ZFile以服务方式安装，轻松在Windows Service管理控制台控制您的ZFile。同时，软件默认安装服务时要求系统启动时自动开启服务，实现轻松配置开机自启，您也可以自行设置。
+
 ## 下载
 
 [下载最新的Release](https://github.com/yangnuozhen/ZFile-Service/releases)
