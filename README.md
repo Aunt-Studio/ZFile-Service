@@ -16,6 +16,46 @@ ZFile Service 是一个能让基于Java的在线文件管理器[ZFile](https://w
 
 其可以让ZFile一键运行，亦可以一键将ZFile以服务方式安装，轻松在Windows Service管理控制台控制您的ZFile。同时，软件默认安装服务时要求系统启动时自动开启服务，实现轻松配置开机自启，您也可以自行设置。
 
+## 构建
+
+### 0.先决条件
+
+**程序需求**
+|   |       |                                         |
+|-------|-------|-----------------------------------------|
+| 名称    | Git   |  Microsoft Visual Studio                |
+| 版本需求  | - | ≥10.0.40219.1，Recommend 17.5.33209.295  |
+| 附加包需求 | -     | .NET 桌面开发                               |
+
+
+### 1.Clone本项目
+
+```bash
+git clone "https://github.com/yangnuozhen/ZFile-Service.git"
+```
+
+### 2.使用Microsoft Visual Studio开启解决方案
+
+使用Microsoft Visual Studio打开`.\ZFile.sln`。
+
+### 3.在Microsoft Visual Studio中构建
+
+配置完成生成方案，点击启动或生成按钮。
+
+![Start](/src/run.png)
+
+### 4.配置程序相关参数
+
+查看文件`.\ZFile\bin\Debug\ZFile.exe`(或`.\ZFile\bin\Release\ZFile.exe`)是否存在。
+
+将`.\batch`文件夹中所有文件放入程序生成目录，
+
+按照[配置方法](#配置)完成配置。
+
+### 5.测试程序
+
+
+
 ## 下载
 
 [下载最新的Release](https://github.com/yangnuozhen/ZFile-Service/releases)
